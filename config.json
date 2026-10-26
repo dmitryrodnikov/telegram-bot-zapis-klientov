@@ -1,0 +1,30 @@
+{
+  "timezone": "Europe/Moscow",
+  "horizon_days": 7,
+  "work_start": "10:00",
+  "work_end": "19:00",
+  "step_min": 30,
+  "remind_before_min": 60,
+  "min_notice_min": 30,
+  "weekdays": [0, 1, 2, 3, 4, 5, 6],
+  "closed_dates": [],
+  "breaks": [
+    { "start": "14:00", "end": "15:00" }
+  ],
+  "services": [
+    {
+      "id": "haircut",
+      "title": "Стрижка",
+      "duration_min": 60,
+      "price": "2000 ₽",
+      "description": "Индивидуальный приём одного человека"
+    },
+    {
+      "id": "consult",
+      "title": "Консультация",
+      "duration_min": 30,
+      "price": "1500 ₽",
+      "description": "Короткая встреча или созвон"
+    }
+  ]
+}
